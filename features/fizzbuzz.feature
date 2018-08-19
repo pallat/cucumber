@@ -18,4 +18,8 @@ Feature: fizzbuzz counting system
     Scenario: 5 is Buzz
         Given I got 5
         When I count with fizzbuzz
-        Then I should get "Buzz"    
+        Then I should get "Buzz"
+    Scenario: 6 is Fizz
+        Given I got 6
+        When I count with fizzbuzz
+        Then I should get "Fizz"
