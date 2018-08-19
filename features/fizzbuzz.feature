@@ -35,3 +35,7 @@ Feature: fizzbuzz counting system
         Given I got 9
         When I count with fizzbuzz
         Then I should get "Fizz"
+    Scenario: 10 is Buzz
+        Given I got 10
+        When I count with fizzbuzz
+        Then I should get "Buzz"
