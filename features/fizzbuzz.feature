@@ -11,4 +11,7 @@ Feature: fizzbuzz counting system
         Given I got 3
         When I count with fizzbuzz
         Then I should get "Fizz"
-    
+    Scenario: 4 is 4
+        Given I got 4
+        When I count with fizzbuzz
+        Then I should get "4"
