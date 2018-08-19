@@ -6,10 +6,10 @@ Feature: fizzbuzz counting system
 
         Examples:
         |input|expected|
-        |    3|"Fizz"|
-        |    6|"Fizz"|
-        |    9|"Fizz"|
-        |   12|"Fizz"|
+        |    3|  "Fizz"|
+        |    6|  "Fizz"|
+        |    9|  "Fizz"|
+        |   12|  "Fizz"|
 
     Scenario Outline: ตัวเลขที่หารห้าลงตัว
         Given I got <input>
@@ -18,8 +18,8 @@ Feature: fizzbuzz counting system
 
         Examples:
         |input|expected|
-        |    5|"Buzz"|
-        |   10|"Buzz"|
+        |    5|  "Buzz"|
+        |   10|  "Buzz"|
 
     Scenario Outline: ตัวเลขที่หารสามลงตัวและตัวเลขที่หารห้าลงตัว
         Given I got <input>
@@ -27,8 +27,8 @@ Feature: fizzbuzz counting system
         Then I should get <expected>
 
         Examples:
-        |input|expected|
-        |    15|"FizzBuzz"|
+        |input|  expected|
+        |   15|"FizzBuzz"|
 
 
     Scenario: 1 is 1
