@@ -1,6 +1,6 @@
 class Fizzbuzz
     def count(input)
-        "1"
+        input.to_s
     end
 end
 
