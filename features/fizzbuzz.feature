@@ -43,3 +43,7 @@ Feature: fizzbuzz counting system
         Given I got 11
         When I count with fizzbuzz
         Then I should get "11"
+    Scenario: 12 is Fizz
+        Given I got 12
+        When I count with fizzbuzz
+        Then I should get "Fizz"
