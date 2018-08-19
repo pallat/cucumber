@@ -3,6 +3,9 @@ class Fizzbuzz
         if input == 3
             return "Fizz"
         end
+        if input == 5
+            return "Buzz"
+        end
         input.to_s
     end
 end
