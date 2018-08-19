@@ -1,11 +1,18 @@
+class Fizzbuzz
+    def count(input)
+        "1"
+    end
+end
+
 Given("I got {int}") do |input|
-    pending # Write code here that turns the phrase above into concrete actions
+    @input = input
+    @fizzbuzz = Fizzbuzz.new
   end
   
   When("I count with fizzbuzz") do
-    pending # Write code here that turns the phrase above into concrete actions
+     @actual = @fizzbuzz.count @input
   end
   
   Then("I should get {string}") do |expected|
-    pending # Write code here that turns the phrase above into concrete actions
+    expect(@actual).to eq expected
   end
