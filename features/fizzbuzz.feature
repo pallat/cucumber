@@ -7,3 +7,8 @@ Feature: fizzbuzz counting system
         Given I got 2
         When I count with fizzbuzz
         Then I should get "2"
+    Scenario: 3 is Fizz
+        Given I got 3
+        When I count with fizzbuzz
+        Then I should get "Fizz"
+    

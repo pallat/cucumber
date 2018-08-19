@@ -1,5 +1,8 @@
 class Fizzbuzz
     def count(input)
+        if input == 3
+            return "Fizz"
+        end
         input.to_s
     end
 end
