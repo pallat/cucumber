@@ -1,6 +1,6 @@
 class Fizzbuzz
     def count(input)
-        if input == 3 || input == 6
+        if input % 3 == 0
             return "Fizz"
         end
         if input == 5

@@ -23,3 +23,15 @@ Feature: fizzbuzz counting system
         Given I got 6
         When I count with fizzbuzz
         Then I should get "Fizz"
+    Scenario: 7 is 7
+        Given I got 7
+        When I count with fizzbuzz
+        Then I should get "7"
+    Scenario: 8 is 8
+        Given I got 8
+        When I count with fizzbuzz
+        Then I should get "8"
+    Scenario: 9 is Fizz
+        Given I got 9
+        When I count with fizzbuzz
+        Then I should get "Fizz"
