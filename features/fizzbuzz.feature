@@ -10,7 +10,17 @@ Feature: fizzbuzz counting system
         |    6|"Fizz"|
         |    9|"Fizz"|
         |   12|"Fizz"|
-        
+
+    Scenario Outline: ตัวเลขที่หารห้าลงตัว
+        Given I got <input>
+        When I count with fizzbuzz
+        Then I should get <expected>
+
+        Examples:
+        |input|expected|
+        |    5|"Buzz"|
+        |   10|"Buzz"|
+
     Scenario: 1 is 1
         Given I got 1 
         When I count with fizzbuzz
